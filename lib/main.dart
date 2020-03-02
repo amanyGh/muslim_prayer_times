@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:muslim_prayer_times/UI/Screens/home_screen.dart';
+import 'package:muslim_prayer_times/UI/Values/themes.dart';
 
 void main() => runApp(MuslimPrayerTimesApp());
 
@@ -8,9 +10,8 @@ class MuslimPrayerTimesApp extends StatelessWidget {
     return MaterialApp(
       title: "Muslim Prayer Times",
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(),
-      ),
+      theme: AppThemes.appTheme,
+      home: HomeScreen(),
     );
   }
 }
