@@ -6,4 +6,9 @@ class Styles {
     statusBarColor: AppColors.primaryColorDark,
     systemNavigationBarColor: AppColors.primaryColorDark
   );
+
+  static SystemUiOverlayStyle systemUIOverlayStyleLight = SystemUiOverlayStyle(
+    statusBarColor: AppColors.primaryColorLight,
+    systemNavigationBarColor: AppColors.primaryColorLight
+  );
 }
