@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:muslim_prayer_times/UI/Values/colors.dart';
 import 'package:muslim_prayer_times/UI/Values/styles.dart';
 
 class HomeScreen extends StatefulWidget{
@@ -17,10 +16,10 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text("Muslim Prayer Times"),
         centerTitle: true,
-        backgroundColor: AppColors.primaryColorDark,
+        backgroundColor: Theme.of(context).primaryColorDark,
       ),
       body: Container(),
-      backgroundColor: AppColors.primaryColorLight,
+      backgroundColor: Theme.of(context).primaryColorLight,
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(
